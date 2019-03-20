@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+target 'AccessibilityMap' do
+	use_frameworks!
+	pod 'Alamofire', '~> 4.7'
+	pod 'BLMultiColorLoader'
+	pod 'ReachabilitySwift'
+    pod 'SkeletonView'
+    pod 'ParallaxHeader', '~> 2.0.0'
+    pod 'GooglePlaces'
+end
